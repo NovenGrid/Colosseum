@@ -1,5 +1,7 @@
 # Colosseum
 
+Welcome to the Novengrid repo for the Colosseum Hackathon! The main readme and documentation on each part can be found within the two folders.
+
 ## Project Structure
 
 ### contract
