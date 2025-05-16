@@ -49,7 +49,7 @@ export const AdminBody = () => {
         );
         try {
             return await program.account.playerAccount.fetch(playerPDA) as PlayerAccount;
-        } catch(e) {
+        } catch {
             return null;
         }
     }, [program]);

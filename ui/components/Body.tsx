@@ -59,7 +59,7 @@ export const Body = () => {
         );
         try {
             return await program.account.playerAccount.fetch(playerPDA) as PlayerAccount;
-        } catch(e) {
+        } catch {
             return null;
         }
     }, [program]);
